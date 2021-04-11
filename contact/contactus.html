@@ -1,0 +1,139 @@
+<?php include('../config/config.php') ?>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact us</title>
+	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+	<style>
+		body {
+			background-color: #fafafc;
+		}
+
+		.contact {
+			padding: 4%;
+			height: 400px;
+		}
+
+		.col-md-3 {
+			background: #3b7060;
+			padding: 4%;
+			border-top-left-radius: 0.5rem;
+			border-bottom-left-radius: 0.5rem;
+		}
+
+		.contact-info {
+			margin-top: 10px;
+		}
+
+		.contact-info img {
+			margin-bottom: 15%;
+		}
+
+		.contact-info h2 {
+			margin-bottom: 10%;
+		}
+
+		.col-md-9 {
+			background: #fff;
+			padding: 3%;
+			border-top-right-radius: 0.5rem;
+			border-bottom-right-radius: 0.5rem;
+		}
+
+		.contact-form label {
+			font-weight: 600;
+		}
+
+		.contact-form button {
+			background: #25274d;
+			color: #fff;
+			font-weight: 600;
+			width: 25%;
+		}
+
+		.contact-form button:focus {
+			box-shadow: none;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container contact" style="padding-top: 7%;">
+		<div class="row">
+			<div class="col-md-3">
+			<div class="contact-info text-center">
+                <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                
+				<h2>Contact Us</h2>
+				<h4>We are here to help and answer question you might have.</h4>
+			</div>
+		</div>
+			<div class="col-md-9">
+
+				<form action="contact.php" method="post">
+					
+					<div class="contact-form">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="fname">First Name:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="lname">Last Name:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="email">Email:</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Comment:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="5" id="comment" name="comment" required></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-default" name="submit">Submit</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="icon text-center" style="padding-top: 30px; font-size: 50px; padding-bottom: 50px; ">
+				<i style="padding-top: 15px;" class="fas fa-map-marker-alt">
+					<h4>Bhopal<br> Madhya Pradesh</h4>
+				</i>
+				<i class="fab fa-whatsapp-square"><br>
+					<h4>+91 8507769368 </h4>
+				</i>
+				<a href="mailto:roomfinder4u@gmail.com"><i class="fas fa-envelope-open"><br>
+						<h4>roomfinder4u@gmail.com </h4>
+					</i></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div>
+
+		
+
+	</div>
+</body>
+
+</html>

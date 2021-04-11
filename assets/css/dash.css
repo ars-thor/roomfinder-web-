@@ -1,0 +1,103 @@
+*{
+  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  white-space:nowrap;
+}
+
+body{
+  color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+ 
+}
+
+.top{
+ 
+  height: 100px;
+  background-color:#282828;
+  border: 2px solid #fed136;
+  padding-bottom: 10px;
+  font-family: monospace !important;
+  font-style: italic;
+  
+}
+.left_div{
+    text-align: left;
+    float: left;
+    color: 	#fed136;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 25px;
+}
+
+  .right_div{ 
+  float: right;
+  text-align: right;
+  color: #fed136;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top:40px;
+
+}
+
+/*.name_plate{
+float: right;
+right: 0;
+font-family: sans-serif !important;
+color: blueviolet;
+font-size: 20px;
+font-style: italic;
+}*/
+
+.menu{
+  background-color:#282828;
+  text-align: center;
+  height: 300px;
+  width: 225px;
+  margin-top: 15px;
+    /* border: solid ; */
+  /* margin-right: 8px; */
+ 
+
+}
+.menu ul{
+    /* display: inline-flex; */
+    margin-top: 30px;
+    list-style: none;
+    color: cornsilk;
+    /* border:3px solid #16da78; */
+    /* border: solid; */
+    /* border: 1px solid;  */
+   
+    
+
+
+}
+.menu ul li{
+    width:150px;
+    margin:20px;
+    padding:15px;
+    /* border: solid; */
+    border:3px solid #f9fafa;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* border:  1px solid; */
+    /* font-size: 22px; */
+    
+}
+
+.menu ul li:hover, .active{
+     background-color: rgb(136, 132, 132);
+     border-radius: 3px;
+     /* margin-top: 15px; */
+     /* display:inline-block; */
+}
